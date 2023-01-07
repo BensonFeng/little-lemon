@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+.section__padding {
+  padding: 4rem 6rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex__center {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.app__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headtext__markazi {
+  font-family: var(--font-base);
+  color: var(--color-primary-seaweed);
+  font-size: 64px;
+}
+
+.p__markazi {
+  font-family: var(--font-base);
+  color: var(--color-primary-seaweed);
+
+  font-size: 40px;
+}
+.p__karla-seaweed {
+  font-family: var(--font-alt);
+  color: var(--color-primary-seaweed);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.p__karla-seaweedbold {
+  font-family: var(--font-alt);
+  color: var(--color-primary-seaweed);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.p__karla-extrabold {
+  font-family: var(--font-alt);
+  color: #000;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.h3__karla {
+  font-family: var(--font-alt);
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.h3__karla-bold {
+  font-family: var(--font-alt);
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.h2__karla {
+  font-family: var(--font-alt);
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: capitalize;
+
+  /*
+  letter-spacing: 0.04em;
+  line-height: 28px; */
 }
