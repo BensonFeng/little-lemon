@@ -1,5 +1,5 @@
 import React from "react";
-
+//Logo, page links
 const Nav = () => {
   return (
     <nav>

@@ -1,11 +1,21 @@
 import "./App.css";
-import { Header, Nav, Main, Footer } from "./components";
+import {
+  Nav,
+  Hero,
+  Highlights,
+  Testimonials,
+  About,
+  Footer,
+} from "./components";
+
 function App() {
   return (
     <>
-      <Header />
       <Nav />
-      <Main />
+      <Hero />
+      <Highlights />
+      <Testimonials />
+      <About />
       <Footer />
     </>
   );
